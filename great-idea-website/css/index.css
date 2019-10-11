@@ -162,13 +162,17 @@ h5 {
 
 /* Your code starts here! */
 
+.container {
+    position: fixed;
+}
+
 .nav-bar {
     display: inline-block;
 }
 
 .nav-bar .nav-item {
     display: inline-block;
-    padding: 20px;
+    padding: 10px;
     margin: 10px;
     color: lightgrey;
     text-decoration: none;
@@ -242,7 +246,7 @@ h4 {
     margin-left: 40px;
 }
 
-.contact p {
+#contact p {
     padding: 5px;
     margin-left: 40px;
 }
